@@ -1,0 +1,149 @@
+# Copyright (C) 2023 Clip for WooCommerce
+# This file is distributed under the same license as the Clip for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clip for WooCommerce 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-clip\n"
+"POT-Creation-Date: 2023-01-24 18:03:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es_AR\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Clip for WooCommerce"
+msgstr "Clip para WooCommerce"
+
+#. Description of the plugin/theme
+msgid "Payment gateway for WooCommerce"
+msgstr "Pasarela de pago para WooCommerce"
+
+#: clip-woo.php.php:174
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/gateway/class-wc-clip.php:27 src/helper/class-settings-trait.php:43
+msgid "Accept payments using Clip."
+msgstr "Acepte pagos usando Clip."
+
+#: src/gateway/class-wc-clip.php:47 src/gateway/class-wc-clip.php:62
+msgid "Pay with cash"
+msgstr "Paga con efectivo"
+
+#: src/gateway/class-wc-clip.php:51 src/gateway/class-wc-clip.php:66
+msgid "Pay with card"
+msgstr "Paga con débito o crédito"
+
+#: src/gateway/class-wc-clip.php:55 src/gateway/class-wc-clip.php:70
+msgid "Pay with card or cash"
+msgstr "Paga con débito, crédito o efectivo"
+
+
+#: src/gateway/settings.php:16 src/gateway/settings.php:32
+msgid "Enable/Disable"
+msgstr "Activar/desactivar"
+
+#: src/gateway/settings.php:18
+msgid "Enable Clip Payment Gateway"
+msgstr "Habilitar pasarela de pago de Clip"
+
+#: src/gateway/settings.php:22
+msgid "Payment Options"
+msgstr "Opciones de pago"
+
+#: src/gateway/settings.php:34
+msgid "Activate Banner"
+msgstr "Activar Banner"
+
+#: src/gateway/settings.php:34
+msgid "Activate Logs"
+msgstr "Activar registros"
+
+#: src/gateway/settings.php:26
+msgid "Only Cash"
+msgstr "Solo Efectivo"
+
+#: src/gateway/settings.php:27
+msgid "Only Card"
+msgstr "Solo Tarjeta"
+
+#: src/gateway/settings.php:28
+msgid "Both"
+msgstr "Ambas"
+
+#: src/gateway/settings.php:37
+msgid "You can enable plugin debugging to track communication between the plugin and Clip API. You will be able to view the record from the <a href=\"%s\">WooCommerce > Status > Records</a> menu."
+msgstr "Puede habilitar la depuración del plugin para rastrear la comunicación entre el complemento y la API de Clip. Podrá ver el registro desde el menú <a href=\"%s\">WooCommerce > Estado > Registros</a>."
+
+
+#: src/gateway/class-wc-clip.php:75
+msgid "The No. 1 payment platform in Mexico"
+msgstr "La plataforma de pagos Nº 1 en México"
+
+#: src/gateway/class-clip-request-deposit-action.php:151
+msgid "Sorry, this order is invalid and cannot be paid. Contact customer service."
+msgstr "Lo sentimos, este pedido no es válido y no se puede pagar. Póngase en contacto con el servicio de atención al cliente."
+
+#: src/gateway/class-post-checkout.php:43
+msgid "Pay with "
+msgstr "Pagar con "
+
+
+#: src/gateway/class-post-checkout.php:49
+msgid "Select another payment method "
+msgstr "Seleccionar otro método de pago "
+
+
+#: src/gateway/class-post-checkout.php:38
+msgid "Click the button to complete the purchase"
+msgstr "Haga clic en el botón para completar la compra"
+
+
+#: src/gateway/settings.php:27
+msgid "If you still do not have your credentials to operate with Clip, click <a href='https://dashboard.clip.mx/md/users/sign_in?pathname=%2Fusers%2Fsign_in' target='_bank'>here</a>."
+msgstr "Si todavía no tienes tus credenciales para operar con Clip, click <a href='https://dashboard.clip.mx/md/users/sign_in?pathname=%2Fusers%2Fsign_in' target='_bank'>aquí</a>."
+
+
+#: src/gateway/settings.php:31
+msgid "Client Api Key"
+msgstr "Api Key de cliente"
+
+#: src/gateway/settings.php:36
+msgid "Client Api Secret"
+msgstr "Api Secret de cliente"
+
+#: src/gateway/settings.php:42
+msgid "Validation"
+msgstr "Validación"
+
+#: src/helper/class-validations-trait.php:55
+msgid "Valid credentials."
+msgstr "Credenciales válidas."
+
+#: src/helper/class-validations-trait.php:56
+msgid "Invalid credentials."
+msgstr "Credenciales inválidas."
+
+#: src/templates/page-onboarding.php:11
+msgid "If you do not see the panel correctly, enter the following link:"
+msgstr "Si no visualiza correctamente el panel, ingrese al siguiente link:"
+
+#: src/templates/page-onboarding.php:11
+msgid "WooCommerce > Settings > Payments > Clip"
+msgstr "WooCommerce > Ajustes > Pagos > Clip"
+
+#: src/gateway/settings.php:89
+msgid "If you want to activate MSI you can configure them in the <a href='https://dashboard.clip.mx/md/marketing_tools' target='_bank'>Clip panel</a>."
+msgstr "Si deseas activar MSI puedes configurarlos en el <a href='https://dashboard.clip.mx/md/marketing_tools' target='_bank'>panel de Clip</a>."
+
+
+#: src/gateway/settings.php
+msgid "Checkout expiration time (hours)"
+msgstr "Tiempo de vencimiento del pago (horas)"
+
+#: src/gateway/settings.php
+msgid "This field will determine the maximum checkout time to receive your payment with Clip while the order remains pending payment and only one integer value is allowed. If no value is added, the default maximum time will be 72 hours."
+msgstr "Este campo determinará el tiempo máximo de pago para recibir tu pago con Clip mientras el pedido permanece pendiente de pago y solo se permite un valor entero. Si no se agrega ningún valor, el tiempo máximo predeterminado será 72 horas."
